@@ -9,7 +9,7 @@ namespace ExamenSI
     class NEnt
     {
         private int n;
-        //Contructor
+        
         public NEnt()
         {
             n = 0;
@@ -30,13 +30,13 @@ namespace ExamenSI
         {
             int c = 0;
             bool ban = true;
-            //              6 <= 5
+            
             for (int i = 1; i <= n; i++)
             {
-                //  5 / 5 == 0 ?
+                
                 if (n % i == 0)
                 {
-                    c = c + 1;//2    (si)
+                    c = c + 1;
                 }
 
             }
